@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Hero from './component/hero/Hero';
+import Navbar from './component/navigation/Navbar';
+import SectionFeatures from './component/SectionFeatures.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
+    <Navbar/>
+    <Hero/>
+    <main>
+      <SectionFeatures/>
+
+    </main>
     
-    <p class="text-red-500" >toto</p>
+    <p className="text-red-500" ></p>
     </div>
   );
 }
